@@ -7,7 +7,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/profile_picture"
@@ -21,8 +21,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/profile_picture"
             android:layout_centerInParent="true"
-            android:padding="8dp"
-            android:text="Name" />
+            android:padding="@dimen/padding_8dp"
+            android:text="@string/value_name" />
 
         <TextView
             android:id="@+id/birthday"
@@ -30,8 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/name"
             android:layout_centerInParent="true"
-            android:padding="8dp"
-            android:text="Birthday" />
+            android:padding="@dimen/padding_8dp"
+            android:text="@string/value_birthday" />
 
         <TextView
             android:id="@+id/country"
@@ -39,8 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/birthday"
             android:layout_centerInParent="true"
-            android:padding="8dp"
-            android:text="Country" />
+            android:padding="@dimen/padding_8dp"
+            android:text="@string/value_country" />
 
     </RelativeLayout>
 

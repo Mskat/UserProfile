@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">UserProfile</string>
+    <string name="name">Kate</string>
+    <string name="birthday">19/04/1991</string>
+    <string name="country">Poland</string>
+    <string name="value_name">Name</string>
+    <string name="value_birthday">Birthday</string>
+    <string name="value_country">Country</string>
 </resources>

@@ -19,19 +19,19 @@ public class MainActivity extends AppCompatActivity {
         profilePicture.setImageResource(R.drawable.picture);
 
         TextView name = findViewById(R.id.name);
-        name.setText("Kate");
+        name.setText(R.string.name);
         name.setTextSize(35);
         name.setTypeface(Typeface.SANS_SERIF, Typeface.ITALIC);
         name.setTextColor(Color.parseColor("#cc3300"));
 
         TextView birthday = findViewById(R.id.birthday);
-        birthday.setText("19/04/1991");
+        birthday.setText(R.string.birthday);
         birthday.setTextSize(20);
         name.setTypeface(Typeface.SANS_SERIF, Typeface.ITALIC);
         birthday.setTextColor(Color.parseColor("#cc3300"));
 
         TextView country = findViewById(R.id.country);
-        country.setText("Poland");
+        country.setText(R.string.country);
         country.setTextSize(20);
         name.setTypeface(Typeface.SANS_SERIF, Typeface.ITALIC);
         country.setTextColor(Color.parseColor("#cc3300"));
